@@ -1,55 +1,81 @@
-* {
-    box-sizing: border-box;
-}
-
-header {
+ header {
+    width: 850px;
+    height: 300px;
+    margin: auto;
     display: flex;
-    justify-content: flex-start;
+    align-items: flex-end;
+    background-color: rgb(253, 250, 237);
+    background: linear-gradient( rgb(153, 0, 255) 90%, rgb(253, 250, 237) 10%);
+ }
+
+ .profilePic {
+    width: 130px;
+    height: 130px;
+    margin: 15px;
+    border: 1px solid black;
+    background-color: rgb(192, 97, 255);
+ }
+
+ .profileInfo {
+    display: flex;
     flex-direction: column;
-    justify-self: center;
-    margin: 0 auto;
-    background-color: rgb(71, 91, 194);
-    width: 850px;
-    height: 375px;
-}
+    justify-content: space-evenly;
+ }
 
-.profilePic {
-    width: 100px;
-    height: 100px;
-    margin: 10px;
-    background-color: rgb(71, 91, 194);
-    border: 1px solid black;
-}
-
-.pageName, .pageWebsite {
+ .pageName, .pageWebsite {
     color: white;
-}
+    margin-bottom: 5px;
+ }
 
-.profilePic-info {
+ .columnNav {
     display: flex;
-}
+    border-bottom: 1px solid blue;
+ }
 
-.columnNav {
+ .columnButton {
+    padding: 0px 15px;
+    margin-bottom: 3px;
+ }
+
+ .headerEvents {
     display: flex;
-    align-self: flex-end;
-    justify-self: center;
-    justify-content: center;
-    height: 75px;
+    margin-bottom: 45px;
+    margin-left: 45px;
+ }
+
+ .eventButton {
+    display: flex; 
+    background-color: rgb(253, 250, 237);
+    align-content: flex-start;
+    padding: 5px 10px;
+    border-radius: 3px;
+    border: 1px solid rgb(20, 20, 20)
+ }
+
+ .eventLike {
+    margin-right: 20px;
+ }
+
+ main {
     width: 850px;
-    background-color: rgb(228, 218, 218);
-    border: 1px solid black;
-}
+    height: 1000px;
+    margin: auto;
+    background-color: rgb(253, 250, 237)
+ }
 
-.eventButton {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 75px;
-    height: 40px;
-    background-color: rgb(228, 218, 218);
-    border-radius: 95%;
-}
-.headerEvents {
-    display: flex;
-    justify-self: flex-end;
-}
+ .columnBody {
+     display: flex;
+ }
+
+ .columnOne {
+    width: 328px;
+    height: 950px;
+    margin-right: 10px;
+    border: 1px solid black;
+ }
+
+ .columnTwo {
+     width: 512px;
+     height: 950px;
+     border: 1px solid red;
+ }
