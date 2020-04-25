@@ -4,7 +4,6 @@
     margin: auto;
     display: flex;
     align-items: flex-end;
-    background-color: rgb(253, 250, 237);
     background: linear-gradient( rgb(153, 0, 255) 90%, rgb(253, 250, 237) 10%);
  }
 
